@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-img"><img src="Gym image.jpg" /></div>
+    <div class="details bg">
+        <div class="header-details">
+      <h1>Start your journey at Neon's gym <span class="italic">today</span></h1>
+      <h2>
+        Sign up here!
+      </h2>
+    </div>
+      <form action="index.html" method="post">
+        <div class="first-row">
+            <div class="first_name">
+        <label for="first-name">FIRST NAME*</label>
+        <input type="text" id="first-name" name="first-name" minlength="1" maxlength="15" placeholder="John">
+    </div>
+    <div class="last_name">
+        <label for="last-name">LAST NAME*</label>
+        <input type="text" id="last-name" name="last-name" minlength="1" maxlength="15" placeholder="Doe">
+    </div>
+    </div>
+    <div class="second-row">
+        <div class="e_mail">
+        <label for="email">EMAIL*</label>
+        <input type="email" id="email" placeholder="Enter your email">
+    </div>
+    <div class="phone_num">
+        <label for="phone-num">PHONE NUMBER*</label>
+        <input type="text" id="phone-num" placeholder="123-456-789" minlength="4">
+    </div>
+    </div>
+    <div class="third-row">
+        <div class="pass_word">
+        <label for="pw">PASSWORD*</label>
+        <input type="password" id="pw" min="8" max="12">
+    </div>
+    <div class="cfm_pw">
+        <label for="confirm-pw">CONFIRM PASSWORD*</label>
+        <input type="password" id="confirm-pw" min="8" max="12">
+    </div>
+    </div>
+      </form>
+      <button type="submit">Create Account</button>
+      <p>Already have an account? <span class="log_in"><a href="https://google.com">Log in</a></span></p>
+  </div>
+  </body>
+</html>
